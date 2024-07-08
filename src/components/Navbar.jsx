@@ -4,19 +4,22 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaTwitterSquare } from "react-icons/fa";
-
+import coconut from "../assets/final.png"
+import { motion } from "framer-motion";
 
 const Navbar = () => {
-  return <nav className=" mb-20 flex items-center justify-between py-6">
+  return <nav className=" mb-10 flex items-center justify-between py-6">
     <div className="flex flex-shrink-0 items-center">
-        <img src={logo} alt="" srcset="" />
+        <img className='mx-2 w-22 h-14 object-contain' src={coconut} alt="" srcset="" />
     </div>
-    <div className="m-8 flex flex-shrink-0 items-center justify-center gap-4 py-6 text-2xl">
-        <FaLinkedin/>
+    <motion.div  initial={{x:100,opacity:0}}
+            animate={{x:0,opacity:1}}
+            transition={{duration:1,delay:1.2}} className="m-8 flex flex-shrink-0 items-center justify-center gap-4 py-6 text-2xl">
+        <FaLinkedin/> 
         <FaInstagram />
         <FaGithub />
         <FaTwitterSquare />
-    </div>
+    </motion.div>
   </nav>;
 };
 
