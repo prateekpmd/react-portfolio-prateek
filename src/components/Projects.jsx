@@ -18,7 +18,7 @@ const Projects = () => {
            initial={{ opacity: 0, x: -100 }}
            transition={{ duration: 0.5 }}
           className='w-full lg:w-1/4 lg:p-8 mb-4 flex md:justify-center xxs:justify-center xxxs:justify-center' >
-             <img className='rounded-2xl border-4 border-neutral-800 p-4' width={250} height={150} src={experience.image} alt={experience.title} />
+             <img className='rounded-2xl border-4 border-neutral-900 ' width={250} height={150} src={experience.image} alt={experience.title} />
           </motion.div>
           <motion.div  
           whileInView={{ opacity: 1, x: 0 }}
@@ -33,7 +33,7 @@ const Projects = () => {
               </p>
               {experience.technologies.map((tech,index)=>(
                   <span key={index} 
-                  className='mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-red-800'>
+                  className='mr-2 mt-4 rounded px-2 py-1 text-sm font-medium bg-gray-900 bg-opacity-25  text-neutral-400'>
                       {tech}
                   </span>
               ))}

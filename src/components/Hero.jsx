@@ -1,6 +1,6 @@
 import React from "react";
 import { HERO_CONTENT } from "../constants";
-import pic from "../assets/kevinRushProfile.png";
+import pic from "../assets/11.png";
 import { motion } from "framer-motion";
 
 const Hero = () => {
@@ -25,7 +25,7 @@ const Hero = () => {
               variants={container(0.5)}
               initial="hidden"
               animate="whileInView"
-              className="bg-gradient-to-r from-red-700 via-gray-600 to-stone-100 text-4xl tracking-tight text-transparent bg-clip-text"
+              className="bg-gradient-to-r from-yellow-400 via-gray-600 to-stone-100 text-4xl tracking-tight text-transparent bg-clip-text"
             >
               Full Stack Developer
             </motion.span>
@@ -40,12 +40,12 @@ const Hero = () => {
           </div>
         </div>
         <div className="w-full lg:w-1/2 lg:p-8">
-          <div className="flex justify-center items-center">
+          <div className="flex justify-center items-center  ">
             <motion.img
               initial={{ x: 100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 1, delay: 1.2 }}
-              className="rounded-2xl border-4 border-neutral-800 p-4"
+              className="rounded-2xl  p-4"
               src={pic}
               alt=""
               srcset=""
