@@ -18,7 +18,7 @@ const Aboutme = () => {
          whileInView={{opacity:1,y:0}}
          transition={{duration:1,delay:0.5 }}
       className="text-center text-4xl lg:mt-20 sm:mt-16 xxs:mt-10 xxxs:mt-16">
-        About <span className="text-neutral-500">Me</span>
+        About Me
       </motion.h1>
       <div className="flex flex-wrap ">
         <motion.div
