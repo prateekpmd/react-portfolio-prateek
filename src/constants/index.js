@@ -38,6 +38,7 @@ export const PROJECTS = [
   {
     title: "Portfolio Website",
     image: project1,
+    link:"https://react-portfolio-prateek.vercel.app/",
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["React", "Tailwind Css", "Framer-motion"],
@@ -45,6 +46,7 @@ export const PROJECTS = [
   {
     title: "Product Order /Invoice Generator",
     image: project1,
+    link:"https://react-portfolio-prateek.vercel.app/",
     description:
       "Product Order Invoice Generator, built on React, which lets you Print and download Product Invoices on the fly. (Client side)",
     technologies: ["React", "Tailwind CSS", "React"],
@@ -52,6 +54,7 @@ export const PROJECTS = [
   {
     title: "Itodo (FULL STACK App)",
     image: project1,
+    link:"https://react-portfolio-prateek.vercel.app/",
     description:
       "To-do lists offer a way to increase productivity, stop you from forgetting things, helps prioritise tasks, manage tasks effectively, use time wisely and improve time management and workflow.",
     technologies: ["Node.js", "Express.js", "React", "MongoDb"],
@@ -60,6 +63,7 @@ export const PROJECTS = [
   {
     title: "Ping Pong Game Clone",
     image: project1,
+    link:"https://react-portfolio-prateek.vercel.app/",
     description:
       "The game is a game played in a simple way where the player uses the paddle to knock the ball back and forth and must get the ball past the other paddle to get a score. The score is represented by digits on top of the screen.",
     technologies: ["HTML", "CSS", "Javascript"],
@@ -67,6 +71,7 @@ export const PROJECTS = [
   {
     title: "Responsive Email Template",
     image: project1,
+    link:"https://react-portfolio-prateek.vercel.app/",
     description:
       "It is a Responsive Email Template, which purely uses HTML(TableTags), Inline and internal CSS. Used it in backend development for sending an Email",
     technologies: ["HTML", "CSS"],
@@ -74,6 +79,7 @@ export const PROJECTS = [
   {
     title: "Timeline Design",
     image: project1,
+    link:"https://react-portfolio-prateek.vercel.app/",
     description:
       "It is a timeline design for the website and displays each content with animation",
     technologies: ["HTML", "CSS"],
@@ -81,6 +87,7 @@ export const PROJECTS = [
   {
     title: "Analog Clock",
     image: project1,
+    link:"https://react-portfolio-prateek.vercel.app/",
     description:
       "An analog clock is a tool for reading the time of day. The shortest hand indicates the hour, the longer hand indicates the minutes, and the longest arm indicates the seconds",
     technologies: ["HTML", "CSS", "Javascript"],
