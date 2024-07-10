@@ -41,7 +41,7 @@ export const PROJECTS = [
   {
     title: "Portfolio Website",
     image: project1,
-    link:"https://react-portfolio-prateek.vercel.app/",
+    link:"https://prateek-premanand.vercel.app/",
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["React", "Tailwind Css", "Framer-motion"],
