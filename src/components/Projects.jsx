@@ -41,11 +41,15 @@ const Projects = () => {
             <h6 className="mb-2 font-semibold">{experience.title} </h6>
             <p className="mb-4 text-neutral-400">{experience.description}</p>
             <div className="flex justify-start items-start mb-4">
-
               <button class="flex gap-1 bg-neutral-300  hover:bg-white text-gray-800 font-medium py-1 px-1 pr-2 border  border-gray-400 rounded shadow">
-                <a className="ml-2" href={experience.link}>
+                <a
+                  className="ml-2"
+                  href={experience.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   {" "}
-                  Click {" "}
+                  Click{" "}
                 </a>
                 <FaLink className="mt-1" />
               </button>
