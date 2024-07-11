@@ -75,8 +75,7 @@ export const PROJECTS = [
     title: "Netflix-Logo-Animation",
     image: project9,
     link:"https://resplendent-tiramisu-c48b3b.netlify.app/",
-    description:
-      "It is a Responsive Email Template, which purely uses HTML(TableTags), Inline and internal CSS. Used it in backend development for sending an Email",
+    description:" Netflix Intro Animation using just HTML and CSS.",
     technologies: ["HTML", "CSS"],
   },
   {
