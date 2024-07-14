@@ -25,7 +25,7 @@ const Hero = () => {
               variants={container(0.5)}
               initial="hidden"
               animate="whileInView"
-              className="bg-gradient-to-r from-yellow-400 via-gray-600 to-stone-100 text-4xl tracking-tight text-transparent bg-clip-text"
+              className="bg-gradient-to-r from-yellow-400 via-gray-600 to-stone-100 text-4xl tracking-tight text-transparent bg-clip-text  flex lg:text-4xl lg:text-left md:text-left sm:text-center xxs:text-4xl xxxs:text-4xl md:text-4xl xxs:text-center xxxs:text-center "
             >
               Full Stack Developer
             </motion.span>
