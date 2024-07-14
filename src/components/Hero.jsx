@@ -17,7 +17,7 @@ const Hero = () => {
               variants={container(0)}
               initial="hidden"
               animate="whileInView"
-              className="pb-16 text-8xl flex font-extrabold  tracking-tight lg:mt-16 lg:text-8xl lg:text-left md:text-left sm:text-center xxs:text-6xl xxxs:text-6xl md:text-6xl xxs:text-center xxxs:text-center"
+              className="pb-16 text-8xl flex font-extrabold  tracking-tight lg:mt-16 lg:text-8xl lg:text-left md:text-left sm:text-center xxs:text-6xl xxxs:text-4xl md:text-6xl xxs:text-center xxxs:text-center"
             >
               Prateek Premanand
             </motion.h1>
