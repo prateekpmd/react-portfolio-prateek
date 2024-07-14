@@ -10,7 +10,7 @@ export default {
         'xxs': '540px', // min-width
       },
       screens: {
-        'xxxs': '350px', // min-width
+        'xxxs': '380px', // min-width
       },
     },
   },
