@@ -19,7 +19,7 @@ const Hero = () => {
               animate="whileInView"
               className="pb-16 text-8xl flex font-extrabold  tracking-tight lg:mt-16 lg:text-8xl lg:text-left md:text-left sm:text-center xxs:text-6xl xxxs:text-4xl md:text-6xl xxs:text-center xxxs:text-center"
             >
-              Prateek Premanand
+              Deepti Kumari
             </motion.h1>
             <motion.span
               variants={container(0.5)}
@@ -27,7 +27,7 @@ const Hero = () => {
               animate="whileInView"
               className="bg-gradient-to-r from-yellow-400 via-gray-600 to-stone-100 text-4xl tracking-tight text-transparent bg-clip-text"
             >
-              Full Stack Developer
+              Category Manager
             </motion.span>
             <motion.p
               variants={container(1)}

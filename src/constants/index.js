@@ -6,16 +6,26 @@ import project6 from "../assets/projects/project-6.png";
 import project7 from "../assets/projects/project-7.png";
 import project9 from "../assets/projects/project-9.jpg";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with 1.6 years of hands-on experience in crafting robust and scalable web applications. My expertise spans a wide range of technologies, including JavaScript, React, Next.js, Node.js, Express, MongoDB, MySQL, and PostgreSQL. I am proficient in using Git for version control, Swagger for API documentation, and Postman for testing APIs. Additionally, I have experience with Bitbucket and GitHub for code repositories, and Netlify and Vercel for deploying web applications. My goal is to leverage my comprehensive skill set to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+import firstcry from "../assets/firstcry.png";
+import hc from "../assets/hc.jpg";
+import hk from "../assets/hk.jpg";
+import md from "../assets/md.svg";
+import z from "../assets/z.jpg";
+
+export const HERO_CONTENT = `I am a dedicated and experienced Category Manager in the e-commerce industry, having successfully navigated this dynamic field for the past six years. My role has allowed me to develop a keen understanding of market trends, consumer behavior, and strategic planning. I hold a master's degree in management from NMIMS, Mumbai, which has equipped me with a solid foundation in business principles and analytical skills. My academic background, combined with my hands-on experience, has enabled me to drive growth, optimize product assortments, and enhance customer satisfaction in a highly competitive market. I am passionate about leveraging data-driven insights to make informed decisions and continuously improve the shopping experience for our customers..`;
 
 export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer passionate about crafting efficient and user-friendly web applications. With the year of experience, I have mastered a diverse array of technologies including React, Next.js, Node.js, MySQL, and MongoDB. My journey into web development began with a deep curiosity about the inner workings of the web, propelling me into a dynamic career where continuous learning and adaptation are paramount. I thrive in collaborative environments, always eager to tackle complex problems and deliver high-quality, innovative solutions.Beyond coding, I am committed to staying active and constantly exploring new technologies.On the front-end, I specialize in React and Next.js, creating dynamic and responsive user interfaces. On the back-end, I am proficient in Node.js and Express, building robust server-side applications. I have extensive experience with databases such as MySQL, PostgreSQL, and MongoDB, ensuring efficient data management. Additionally, I am skilled in using various development tools including Git, Swagger, Postman, Bitbucket, GitHub, Netlify, and Vercel to streamline workflows and enhance productivity. My passion for innovation extends to the open-source community, where I actively contribute to projects that make a difference.`;
 
 export const EXPERIENCES = [
   {
-    year: "7/03/2023 - 27/03/2024",
-    role: "Backend Development Intern ",
-    company: "Pinak Life Sciences.",
-    description: `Contributed in developing and maintaining web applications using JavaScript, and Node.js. Implemented RESTful APIs and integrated with Sql(sequelize) databases. Employing creativity and technical expertise to solve challenges encountered during the development process.`,
+    year: "Oct'21 - Present",
+    role: " Category Manager & Merchandise Planner",
+    title:"Haus & Kinder",
+    company: "Haus & Kinder.",
+    description: `Developed and implemented strategic category management plans to optimize product assortment and drive sales growth
+Analyzed market trends and evaluated competitor performance to guide data-driven decisions on product selection and pricing strategies
+Collaborated with cross-functional teams to execute promotions and marketing initiatives, increasing brand visibility and enhancing customer engagement
+Negotiated vendor contracts and managed supplier relationships to ensure timely merchandise delivery and align inventory levels with sales forecasts.`,
     technologies: [
       "Javascript",
       "Node.js",
@@ -27,14 +37,88 @@ export const EXPERIENCES = [
       "Swagger",
       "Postman",
     ],
+    link:hk
   },
   {
-    year: "03/2020 - 08/2020",
-    role: "Frontend Developer Intern",
-    company: "Web Dharmaa.",
-    description: `Designed and developed user interfaces for web applications using Html, Css, Bootstrap, Javascript. Implemented responsive designs and optimized frontend performance. Worked with the team to manage the workflow. `,
-    technologies: ["HTML", "CSS", "Javascript", "Bootstrap"],
+    year: "Mar'19 - Sept'21",
+    role: "  Assistant Manager : Buying",
+    title:"Firstcry.com",
+    company: "Firstcry.com.",
+    description: `Conducted market research to identify current trends and forecast future demand in order to make strategic purchasing decisions.
+Collaborated with vendors to negotiate pricing, terms, and promotional opportunities to maximize profitability.
+Managed inventory levels and product assortments to ensure optimal stock levels and minimize overstock or stockouts.
+Trained and supervised a team of buying assistants to support department goals and objectives`,
+    technologies: [
+      "Javascript",
+      "Node.js",
+      "Express.js",
+      "Sql",
+      "API design ",
+      "Authentication",
+      "Bitbucket",
+      "Swagger",
+      "Postman",
+    ],
+    link:firstcry
   },
+  {
+    year: "June'18 - Feb'19",
+    role: " Management Trainee",
+    title:"Homecentre India",
+    company: "Homecentre India.",
+    description: ``,
+    technologies: [
+      "Javascript",
+      "Node.js",
+      "Express.js",
+      "Sql",
+      "API design ",
+      "Authentication",
+      "Bitbucket",
+      "Swagger",
+      "Postman",
+    ],
+    link:hc
+  },
+  {
+    year: "Jun'17 - Jul'2017",
+    role: "Intern",
+    title:"Massimo Dutti",
+    company: "Massimo Dutti.",
+    description: ``,
+    technologies: [
+      "Javascript",
+      "Node.js",
+      "Express.js",
+      "Sql",
+      "API design ",
+      "Authentication",
+      "Bitbucket",
+      "Swagger",
+      "Postman",
+    ],
+    link:md
+  },
+  {
+    year: "Jun'16 - Jul'16",
+    role: "Intern",
+    company: "Zara.",
+    title:"Zara",
+    description: "",
+    technologies: [
+      "Javascript",
+      "Node.js",
+      "Express.js",
+      "Sql",
+      "API design ",
+      "Authentication",
+      "Bitbucket",
+      "Swagger",
+      "Postman",
+    ],
+    link:z
+  },
+ 
 ];
 
 export const PROJECTS = [
