@@ -44,10 +44,10 @@ const Aboutme = () => {
         >
           <div className="flex flex-col justify-center items-center  lg:my-10">
            
-            <p className="my-2 max-w-xl py-6 font-light tracking-tighter lg:text-start md:text-center sm:text-center xxs:text-center xxxs:text-center ">
+            <p className="my-2 max-w-xl py-6 font-light tracking-tight lg:text-start md:text-center sm:text-center xxs:text-center xxxs:text-center ">
               {part1}
             </p>
-            <p className="my-2 max-w-xl py-6 font-light tracking-tighter lg:text-start md:text-center sm:text-center xxs:text-center xxxs:text-center ">
+            <p className="my-2 max-w-xl py-6 font-light tracking-tight lg:text-start md:text-center sm:text-center xxs:text-center xxxs:text-center ">
               {part2}
             </p>
           </div>

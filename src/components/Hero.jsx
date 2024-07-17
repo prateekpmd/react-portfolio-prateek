@@ -17,7 +17,7 @@ const Hero = () => {
               variants={container(0)}
               initial="hidden"
               animate="whileInView"
-              className="pb-16 text-8xl flex font-extrabold  tracking-tight lg:mt-16 lg:text-8xl lg:text-left md:text-left sm:text-center xxs:text-6xl xxxs:text-4xl md:text-6xl xxs:text-center xxxs:text-center"
+               className="pb-16 xxxs:pb-14 text-8xl flex font-semibold  tracking-tight lg:mt-16 lg:text-8xl lg:text-left md:text-left sm:text-center xxs:text-8xl xxxs:text-8xl md:text-8xl xxs:text-center xxxs:text-center"
             >
               Prateek Premanand
             </motion.h1>
@@ -25,7 +25,7 @@ const Hero = () => {
               variants={container(0.5)}
               initial="hidden"
               animate="whileInView"
-              className="bg-gradient-to-r from-yellow-400 via-gray-600 to-stone-100 text-4xl tracking-tight text-transparent bg-clip-text"
+              className="bg-gradient-to-r from-yellow-400 via-gray-600 to-stone-100  tracking-tight text-transparent bg-clip-text  flex lg:text-4xl lg:text-left md:text-left sm:text-center xxs:text-4xl xxxs:text-4xl md:text-4xl xxs:text-center xxxs:text-center "
             >
               Full Stack Developer
             </motion.span>
@@ -33,7 +33,7 @@ const Hero = () => {
               variants={container(1)}
               initial="hidden"
               animate="whileInView"
-              className="my-2 max-w-xl py-6 font-light tracking-tighter lg:text-start md:text-center sm:text-center xxs:text-center xxxs:text-center "
+             className="my-2 max-w-xl py-6 font-light tracking-tight lg:text-start md:text-center sm:text-center xxs:text-center xxxs:text-center "
             >
               {HERO_CONTENT}
             </motion.p>
