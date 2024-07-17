@@ -5,6 +5,7 @@ import project4 from "../assets/projects/project-4.png";
 import project6 from "../assets/projects/project-6.png";
 import project7 from "../assets/projects/project-7.png";
 import project9 from "../assets/projects/project-9.jpg";
+import project8 from "../assets/projects/project8.png";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with 1.6 years of hands-on experience in crafting robust and scalable web applications. My expertise spans a wide range of technologies, including JavaScript, React, Next.js, Node.js, Express, MongoDB, MySQL, and PostgreSQL. I am proficient in using Git for version control, Swagger for API documentation, and Postman for testing APIs. Additionally, I have experience with Bitbucket and GitHub for code repositories, and Netlify and Vercel for deploying web applications. My goal is to leverage my comprehensive skill set to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -55,11 +56,18 @@ export const PROJECTS = [
     technologies: ["React", "Tailwind CSS", "React"],
   },
   {
-    title: "Itodo (FULL STACK App)",
+    title: "Itodo (MERN STACK App)",
     image: project3,
     link:"https://react-portfolio-prateek.vercel.app/",
     description:
       "To-do lists offer a way to increase productivity, stop you from forgetting things, helps prioritise tasks, manage tasks effectively, use time wisely and improve time management and workflow.",
+    technologies: ["Node.js", "Express.js", "React", "MongoDb"],
+  },
+  {
+    title: "Money-Tracker-Simple (MERN STACK App)",
+    image: project8,
+    link:"https://money-tracker-simple-mern.vercel.app/",
+    description:`Built a MERN Money Tracker App (Mongo db, express.js, react.js node.js). This simple app will help you track your spending, save money and gain financial insight.`,
     technologies: ["Node.js", "Express.js", "React", "MongoDb"],
   },
 
