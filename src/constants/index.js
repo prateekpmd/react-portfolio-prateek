@@ -75,8 +75,7 @@ export const PROJECTS = [
     title: "Ping Pong Game Clone",
     image: project4,
     link:"https://gamepongjavascript.netlify.app/",
-    description:
-      "The game is a game played in a simple way where the player uses the paddle to knock the ball back and forth and must get the ball past the other paddle to get a score. The score is represented by digits on top of the screen.",
+    description:`Ping Pong Clone is an engaging and fast-paced web game where players compete against a bot in a classic ping pong match`,
     technologies: ["HTML", "CSS", "Javascript"],
   },
   {
