@@ -48,7 +48,7 @@ export const PROJECTS = [
     technologies: ["React", "Tailwind Css", "Framer-motion"],
   },
   {
-    title: "Product Order /Invoice Generator",
+    title: "Product Order /Invoice Generator App",
     image: project2,
     link:"https://kb-eight-khaki.vercel.app/",
     description:
@@ -56,17 +56,17 @@ export const PROJECTS = [
     technologies: ["React", "Tailwind CSS", "React"],
   },
   {
-    title: "Itodo (MERN STACK App)",
+    title: "To-do App (MERN STACK App)",
     image: project3,
-    link:"https://react-portfolio-prateek.vercel.app/",
+    link:"https://to-do-app-frontend-steel.vercel.app/",
     description:
       "To-do lists offer a way to increase productivity, stop you from forgetting things, helps prioritise tasks, manage tasks effectively, use time wisely and improve time management and workflow.",
     technologies: ["Node.js", "Express.js", "React", "MongoDb"],
   },
   {
-    title: "Money-Tracker-Simple (MERN STACK App)",
+    title: "Money-Tracker-Simple App (MERN STACK App)",
     image: project8,
-    link:"https://money-tracker-simple-mern.vercel.app/",
+    link:"https://money-tracker-simple-mern-frontend.vercel.app/",
     description:`Built a MERN Money Tracker App (Mongo db, express.js, react.js node.js). This simple app will help you track your spending, save money and gain financial insight.`,
     technologies: ["Node.js", "Express.js", "React", "MongoDb"],
   },
